@@ -177,7 +177,10 @@ export default function Hero() {
                   key={tag.label}
                   className="absolute px-3 py-1.5 text-xs font-semibold tracking-wider uppercase border"
                   style={{
-                    ...(tag as Record<string, string | number>),
+                    top: tag.top,
+                    bottom: tag.bottom,
+                    left: tag.left,
+                    right: tag.right,
                     background: 'rgba(10,22,40,0.8)',
                     borderColor: 'rgba(0,229,255,0.3)',
                     color: '#00e5ff',
