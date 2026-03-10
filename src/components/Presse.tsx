@@ -87,7 +87,7 @@ export default function Presse() {
               {/* Stars */}
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, j) => (
-                  <StarIcon key={j} size={14} className="text-brand-gold" style={{ color: '#c8872a' }} />
+                  <StarIcon key={j} size={14} className="text-yellow-600" />
                 ))}
               </div>
 
