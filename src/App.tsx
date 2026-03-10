@@ -16,7 +16,7 @@ export default function App() {
     <div className="min-h-screen">
       <Navbar onNewsletterClick={() => setModalOpen(true)} />
       <main>
-        <Hero onNewsletterClick={() => setModalOpen(true)} />
+        <Hero />
         <Leistungen />
         <UeberUns />
         <Statistiken />
