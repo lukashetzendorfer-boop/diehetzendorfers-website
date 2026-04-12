@@ -7,6 +7,7 @@ interface NavbarProps {
 const navItems = [
   { label: 'Start', href: '#hero' },
   { label: 'Leistungen', href: '#leistungen' },
+  { label: 'Lukas + Kathi', href: '#ueber-uns' },
   { label: 'Ueber Uns', href: '#ueber-uns' },
   { label: 'Zahlen', href: '#statistiken' },
   { label: 'Presse', href: '#presse' },
@@ -33,7 +34,7 @@ export default function Navbar({ onNewsletterClick }: NavbarProps) {
           <div className="w-8 h-8 bg-brand-cyan rounded flex items-center justify-center">
             <span className="font-anton text-navy-950 text-sm font-bold italic">H</span>
           </div>
-          <span className="font-montserrat font-bold text-white text-sm tracking-widest uppercase">
+          <span className="hidden sm:inline font-montserrat font-bold text-white text-sm tracking-widest uppercase">
             Die Hetzendorfers
           </span>
         </a>
